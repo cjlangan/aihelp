@@ -5,7 +5,7 @@
 ## Usage
 
 ```bash
-user$ make
+user$ make  # The command that cuased the error
 ```
 clang -Wall game.c -lSDL2 -lSDL2main -o game
 game.c:58:32: error: invalid '==' at end of declaration; did you mean '='?
@@ -16,7 +16,7 @@ game.c:58:32: error: invalid '==' at end of declaration; did you mean '='?
 make: *** [Makefile:6: game] Error 1
 
 ```bash
-user$ aihelp
+user$ aihelp  # The command you run for help
 ```
           
 The error message you're encountering indicates that there is a syntax issue in your code at line 58.
